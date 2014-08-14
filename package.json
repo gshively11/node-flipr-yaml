@@ -1,0 +1,52 @@
+{
+  "name": "flipr-yaml",
+  "version": "1.0.0",
+  "description": "Flipr source to retrieve config from yaml files",
+  "main": "lib/flipr-yaml.js",
+  "scripts": {
+    "jshint": "jshint lib test",
+    "debug": "mocha --debug-brk",
+    "cover": "istanbul cover ./node_modules/mocha/bin/_mocha",
+    "report": "istanbul report cobertura",
+    "test": "npm run-script jshint && npm run-script cover && npm run-script report",
+    "benchmark": "node ./benchmark/percent.js && node ./benchmark/list.js && node ./benchmark/equal.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.secureserver.net:gshively11/node-flipr-yaml.git"
+  },
+  "keywords": [
+    "feature",
+    "ab",
+    "flags",
+    "configuration",
+    "config",
+    "flip",
+    "flipping"
+  ],
+  "author": {
+    "name": "Grant Shively",
+    "email": "gshively11@gmail.com"
+  },
+  "homepage": "https://github.com/gshively11/node-flipr-yaml",
+  "bugs": "https://github.com/gshively11/node-flipr-yaml/issues",
+  "license": "MIT",
+  "devDependencies": {
+    "benchmark": "^1.0.0",
+    "chai": "^1.9.1",
+    "istanbul": "^0.2.16",
+    "jshint": "^2.5.2",
+    "mocha": "^1.20.1",
+    "mocha-istanbul": "^0.2.0",
+    "proxyquire": "^1.0.1",
+    "reggie": "^0.2.1",
+    "sinon": "^1.10.2",
+    "sinon-chai": "^2.5.0"
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "js-yaml": "^3.1.0",
+    "lodash": "^2.4.1",
+    "object-path": "^0.6.0"
+  }
+}
