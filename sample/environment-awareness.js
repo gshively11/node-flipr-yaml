@@ -27,6 +27,4 @@ var source = fliprYaml({
   envLocalFileName: 'config.local.yaml'
 });
 
-source.getConfig(function(err, config){
-  console.dir(config);
-});
+source.getConfig(console.dir);

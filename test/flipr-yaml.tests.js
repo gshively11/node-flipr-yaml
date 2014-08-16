@@ -13,7 +13,7 @@ var getConfigMock;
 var validateConfigMock;
 var sutProxy;
 
-describe('flipr', function(){
+describe('flipr-yaml', function(){
   beforeEach(function(){
     lodashMock = mockLodash();
     getConfigMock = {flush:'flush'};

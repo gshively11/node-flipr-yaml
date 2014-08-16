@@ -21,7 +21,7 @@ var source = fliprYaml({
       input: 'foo'
     }
   ]
-})
+});
 
 source.validateConfig(function(err, errors){
   //'err' will be populated with an error that indicates
