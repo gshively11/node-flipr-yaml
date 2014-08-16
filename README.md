@@ -1,5 +1,11 @@
-node-flipr
+node-flipr-yaml
 ============
+
+# Progress Notes
+* Need to be able to instantiate source and have separate caches for each.
+* Need to rewrite tests
+* Need to rewrite readme
+
 
 Feature flipping and configuration using yaml files.
 

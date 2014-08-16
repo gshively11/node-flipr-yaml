@@ -10,7 +10,6 @@ percentValidationExample:
     values must be numbers between 0 and 100 inclusive.  Also,
     all the numbers must add up to 100 exactly.
   values:
-      #todo: all percent values must add up to 100
     - value: 10
       percent: 60
     - value: 50
