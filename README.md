@@ -88,7 +88,7 @@ source.validateConfig(function(err, errors){
 * [Forcing a preload/cache of YAML file](/sample/preload.js)
 * [Flushing cached config](/sample/flush-cache.js)
 
-# flipr-yaml Methods
+# Methods
 
 In most cases, you should not need to call flipr-yaml's methods directly, flipr takes care of that.  However, for testing or config validation, it can be necessary.
 
@@ -97,7 +97,7 @@ In most cases, you should not need to call flipr-yaml's methods directly, flipr 
 * `flush` - () - Flushes all cached values in flipr-yaml.  This is not guaranteed to be a synchronous action.  There is a chance you may still receive a cached config for a short time after flushing.
 * `validateConfig` - (cb) - Validates the yaml files based on flipr's configuration syntax.  See [flipr-validation](https://github.com/gshively11/node-flipr-validation) for more information.
 
-# flipr-yaml Options
+# Options
 
 * `folderPath` - _required_ - string - The folder path containing the configuration files.  It should be an *absolute* path to the folder holding your config files.  If you pass a relative path, it will default to the CWD of the node process.
   * Defaults to `'lib/config/'`
