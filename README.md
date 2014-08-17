@@ -29,7 +29,9 @@ var source = new FliprYaml({
   folderPath: './config',
   fileName: 'simple.yaml'
 });
-source.getConfig(console.dir);
+source.getConfig(function(err, config){
+  console.dir(config);
+});
 ```
 ## Here's a more complex example:
 ```yaml
@@ -55,7 +57,9 @@ var source = new FliprYaml({
   folderPath: './config',
   fileName: 'complex.yaml'
 });
-source.getConfig(console.dir)
+source.getConfig(function(err, config){
+  console.dir(config);
+});
 ```
 
 # Validating your yaml files

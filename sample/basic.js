@@ -7,4 +7,6 @@ var source = new FliprYaml({
   fileName: 'basic.yaml'
 });
 
-source.getConfig(console.dir);
+source.getConfig(function(err, config){
+  console.dir(config);
+});
