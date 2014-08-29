@@ -2,7 +2,7 @@ node-flipr-yaml
 ============
 
 # Progress Notes
-* Need to rewrite tests
+* Need to update urls once we setup repos
 
 This project is part of the [flipr family](https://github.com/godaddy/node-flipr).
 
